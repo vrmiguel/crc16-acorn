@@ -1,0 +1,15 @@
+[package]
+name = "crc16_acorn"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Vinícius R. Miguel <vrmiguel99@gmail.com>"]
+license = "BSD-3-Clause"
+description = "Iterator-based CRC16/ACORN (aka XMODEM, ZMODEM) implementation"
+repository = "https://github.com/vrmiguel/crc16-acorn"
+readme = "README.md"
+keywords = ["crc", "crc16", "hash", "checksum", "no_std"]
+
+[dev-dependencies]
+crc16 = "0.4.0"
+rand = { version = "0.8.5", default-features = false, features = ["small_rng", "std"] }
